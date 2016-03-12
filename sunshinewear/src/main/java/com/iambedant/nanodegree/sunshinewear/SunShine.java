@@ -406,7 +406,6 @@ public class SunShine extends CanvasWatchFaceService {
                     canvas.drawText(text, centerX + textBounds.width() / 2 + spaceX, centerY + spaceYTemp, textPaintTemp);
 
                     if (weatherTempIcon != null) {
-                        // draw weather icon
                         canvas.drawBitmap(weatherTempIcon,
                                 centerX - textBounds.width() / 2 - spaceX - weatherTempIcon.getWidth(),
                                 centerY + spaceYTemp - weatherTempIcon.getHeight() / 2 - textBounds.height() / 2, null);
